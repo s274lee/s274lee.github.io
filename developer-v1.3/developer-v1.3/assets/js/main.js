@@ -22,7 +22,7 @@ jQuery(document).ready(function($) {
     /* Bootstrap Tooltip for Skillset */
     $('.level-label').tooltip();
     
-    /* jQuery RSS - https://github.com/sdepold/jquery-rss */
+    /* jQuery RSS - https://github.com/sdepold/jquery-rss 
     $("#rss-feeds").rss(
     
         //Change this to your own rss feeds
@@ -51,9 +51,10 @@ jQuery(document).ready(function($) {
         
         }
     );
-    
-    /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
+    */
+	
+    /* Github Activity Feed - https://github.com/caseyscarborough/github-activity 
     GitHubActivity.feed({ username: "caseyscarborough", selector: "#ghfeed" });
-
+    */
 
 });
